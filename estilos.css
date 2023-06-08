@@ -109,11 +109,15 @@ button:hover {
     margin-right: 30px;
 }
 
+.pmv {
+    margin-left: 40px;
+}
 
 #mas-vendidos{
-    margin: 80px;
+    margin: 150px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    
 }
 
 article{
