@@ -60,7 +60,8 @@ nav a:hover {
 .correo {
     color: #DE25F5;
 }
-.bajadacorreo{
+
+.bajadacorreo {
     color: #DE25F5;
 }
 
@@ -83,8 +84,7 @@ button:hover {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5))
-    ,url(Media/img%20jumbotron.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Media/img%20jumbotron.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -99,7 +99,7 @@ button:hover {
     color: #DE25F5;
 }
 
-#nuestro-trabajo .container{
+#nuestro-trabajo .container {
     text-align: center;
     padding: 200px 12px;
 }
@@ -113,47 +113,47 @@ button:hover {
     margin-left: 40px;
 }
 
-#mas-vendidos{
+#mas-vendidos {
     margin: 150px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    
+
 }
 
-article{
+article {
     max-width: 270px;
 }
 
-article h5{
+article h5 {
     font-size: 16px;
 }
 
-article img{
+article img {
     width: 150px;
     height: 150px;
     border-radius: 15px;
     object-fit: cover;
 }
 
-article .producto-puntuacion{
+article .producto-puntuacion {
     display: flex;
     justify-content: space-between;
 }
 
-article .descripcion{
+article .descripcion {
     color: #803FAB;
 }
 
-article .marca{
+article .marca {
     color: #803FAB;
 }
 
-article .precio{
+article .precio {
     margin-top: 8px;
     font-weight: bold;
 }
 
-#contacto .container{
+#contacto .container {
     padding: 150px 50px;
 }
 
@@ -164,47 +164,47 @@ footer img {
 
 @media (min-width: 720px) {
 
-   header .container{
-    flex-direction: row;
-    justify-content: space-between;
-   } 
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-   header nav{
-    flex-direction: row;
-   }
+    header nav {
+        flex-direction: row;
+    }
 
-   #contacto{
-    background-color: #47245f;
-   }
+    #contacto {
+        background-color: #47245f;
+    }
 
-   #contacto .btn-contacto{
-    background-color:#8CFEFE;
-    color:#47245f
-   }
+    #contacto .btn-contacto {
+        background-color: #8CFEFE;
+        color: #47245f
+    }
 
-   #contacto .btn-contacto:hover{
-    background-color: #DE25F5;
-   }
-   
-   #contacto .container{
-    display: flex;
-    justify-content: center;
-   }
+    #contacto .btn-contacto:hover {
+        background-color: #DE25F5;
+    }
 
-   #contacto .info{
-    width: 50%;
-    text-align: initial;
-    padding: 0px 30px;
-    color: white;
-   }
+    #contacto .container {
+        display: flex;
+        justify-content: center;
+    }
 
-   #contacto .img-contacto{
-    background-image: url(Media/armadopc.jpg);
-    background-size:cover;
-    background-position: center center;
-    height: 500px;
-    width: 400px;
-    
-   }
+    #contacto .info {
+        width: 50%;
+        text-align: initial;
+        padding: 0px 30px;
+        color: white;
+    }
+
+    #contacto .img-contacto {
+        background-image: url(Media/armadopc.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+
+    }
 
 }
